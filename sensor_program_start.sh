@@ -13,7 +13,6 @@ echo "Checking for runaway libgpiod_pulsein processes..."
 ps aux | grep libgpiod_pulsein | grep -v grep | awk '{print $2}' | xargs kill -9
 echo "Killed any runaway libgpiod_pulsein processes."
 
-#path to whichever env you activated with proper libraries
 source /home/atz001/dht11/env/bin/activate
 
 python3 publisher.py &
