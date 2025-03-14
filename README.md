@@ -9,6 +9,8 @@ This script fetches system metrics from multiple servers using SNMP, checks thei
 ## Features
 
 - Monitors multiple servers simultaneously using asynchronous operations
+- Collects sensor data over internet
+  - Temp/Humidity
 - Collects key system metrics:
   - CPU load (1, 5, and 15 minute averages)
   - CPU utilization (user, system, idle percentages)
